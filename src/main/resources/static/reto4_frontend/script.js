@@ -2,7 +2,7 @@
 
 function getFarm(){
 $.ajax({
-url:"http://129.151.110.174:8080/api/Farm/all",
+url:"http://129.151.110.174:81/api/Farm/all",
 type:"GET",
 datatype:"JSON",
 success:function(response){
@@ -41,7 +41,7 @@ contentType: "application/json; charset=utf-8",
 dataType: 'JSON',
 data: JSON.stringify(var1),
 
-url:"http://129.151.110.174:8080/api/Farm/save",
+url:"http://129.151.110.174:81/api/Farm/save",
 
 
 success:function(response) {
@@ -64,7 +64,7 @@ function deleteFarm(idItem){
     };
     let dataToSend=JSON.stringify(myData);
     $.ajax({
-        url:"http://129.151.110.174:8080/api/Farm/"+idItem,
+        url:"http://129.151.110.174:81/api/Farm/"+idItem,
         type:"DELETE",
         data:dataToSend,
         contentType:"application/JSON",
@@ -94,7 +94,7 @@ $.ajax({
 	datatype:'json',
 	data:dataToSend,
 	contentType:'application/json',
-    url:"http://129.151.110.174:8080/api/Farm/update",
+    url:"http://129.151.110.174:81/api/Farm/update",
 	type:'PUT',
 
 	success:function(response) {
@@ -120,7 +120,7 @@ $.ajax({
 //START CATEGORY------------------------------------------------------------------------------------------------------------
 function getCategory(){
 $.ajax({
-url:"http://129.151.110.174:8080/api/Category/all",
+url:"http://129.151.110.174:81/api/Category/all",
 type:"GET",
 datatype:"JSON",
 success:function(response){
@@ -154,7 +154,7 @@ contentType: "application/json; charset=utf-8",
 dataType: 'JSON',
 data: JSON.stringify(var1),
 
-url:"http://129.151.110.174:8080/api/Category/save",
+url:"http://129.151.110.174:81/api/Category/save",
 
 
 success:function(response) {
@@ -176,7 +176,7 @@ function deleteCategory(idItem){
     };
     let dataToSend=JSON.stringify(myData);
     $.ajax({
-        url:"http://129.151.110.174:8080/api/Category/"+idItem,
+        url:"http://129.151.110.174:81/api/Category/"+idItem,
         type:"DELETE",
         data:dataToSend,
         contentType:"application/JSON",
@@ -203,7 +203,7 @@ $.ajax({
 	datatype:'json',
 	data:dataToSend,
 	contentType:'application/json',
-    url:"http://129.151.110.174:8080/api/Category/update",
+    url:"http://129.151.110.174:81/api/Category/update",
 	type:'PUT',
 
 	success:function(response) {
@@ -227,7 +227,7 @@ $.ajax({
 //START CLIENT------------------------------------------------------------------------------------------------------
 function getClient(){
 $.ajax({
-url:"http://129.151.110.174:8080/api/Client/all",
+url:"http://129.151.110.174:81/api/Client/all",
 type:"GET",
 datatype:"JSON",
 success:function(response){
@@ -264,7 +264,7 @@ contentType: "application/json; charset=utf-8",
 dataType: 'JSON',
 data: JSON.stringify(var1),
 
-url:"http://129.151.110.174:8080/api/Client/save",
+url:"http://129.151.110.174:81/api/Client/save",
 
 
 success:function(response) {
@@ -286,7 +286,7 @@ function deleteClient(idItem){
     };
     let dataToSend=JSON.stringify(myData);
     $.ajax({
-        url:"http://129.151.110.174:8080/api/Client/"+idItem,
+        url:"http://129.151.110.174:81/api/Client/"+idItem,
         type:"DELETE",
         data:dataToSend,
         contentType:"application/JSON",
@@ -315,7 +315,7 @@ $.ajax({
 	datatype:'json',
 	data:dataToSend,
 	contentType:'application/json',
-    url:"http://129.151.110.174:8080/api/Client/update",
+    url:"http://129.151.110.174:81/api/Client/update",
 	type:'PUT',
 
 	success:function(response) {
