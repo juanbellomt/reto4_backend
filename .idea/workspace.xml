@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="e73fa920-5fed-4eed-b637-f73a3a8c09d6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/usa/ciclo3/reto4/web/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/usa/ciclo3/reto4/web/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/usa/ciclo3/reto4/web/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/usa/ciclo3/reto4/web/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/usa/ciclo3/reto4/web/FarmController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/usa/ciclo3/reto4/web/FarmController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/usa/ciclo3/reto4/web/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/usa/ciclo3/reto4/web/MessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/usa/ciclo3/reto4/web/ReservationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/usa/ciclo3/reto4/web/ReservationController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

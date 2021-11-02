@@ -39,7 +39,7 @@ public class FarmController {
     }
 
     @DeleteMapping("/{id}")
-    @ResponseStatus(HttpStatus.CREATED)
+    @ResponseStatus(HttpStatus.NO_CONTENT)
     public boolean delete(@PathVariable("id") int farmId) {
         return farmService.delete(farmId);
     }
